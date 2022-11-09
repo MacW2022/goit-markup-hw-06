@@ -207,6 +207,17 @@ body {
     align-self: center;
     margin-left: 5px;
 }
+.content-name {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 0.87;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: var(--brand-color-text);
+    margin-top: 40px;
+}
 .btn {
     background-color: var(--brand-color-hover);
     font-family: 'Roboto';
