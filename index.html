@@ -77,8 +77,8 @@
                         </fieldset>
 
                         <fieldset class="fieldset-comment">
-                            <label class="label">Komentarz</label>
-                            <input class="input-comment" type="textarea" placeholder="Wprowadź text"/>
+                            <label class="label" for="">Komentarz</label>
+                            <textarea class="input-comment" placeholder="Wprowadź text"></textarea>
 
                         </fieldset>
 
@@ -86,14 +86,14 @@
                             
                         <label class="label-legal">
                             <input class="input-legal" type="checkbox" />
-                            <span class="label-legal-icon"><svg width="16" height="15">
+                            <span class="label-legal-icon"><svg width="11" height="8">
                                 <use href="./images/icons.svg#icon-Vector"></use>
                             </svg>
-                            <span class="hidden-icon"></span>
+                            <!-- <span class="hidden-icon"></span> -->
                             </span> 
-                            <span class="label-text">Oświadczam, iż akceptuję <a href="#">Regulamin&nbsp;</a> i <a href="#">&nbsp;Politykę Prywatności</a></span>
+                            <span class="label-text">Oświadczam, iż akceptuję <a href="#">Regulamin</a> i <a href="#">Politykę Prywatności</a></span>
+                            <button class="btn-form" type="submit">Wyślij</button>
                         </label>
-                        <!-- <button class="btn-form" type="submit">Wyślij</button> -->
                         </fieldset>
 
                         </form>
@@ -233,7 +233,22 @@
                     </ul>
                 
                 </div>
-            
+
+                <form>
+                    <fieldset class="fieldset-footer">
+                        <label class="label-fieldset-footer">zapisz sie do newslettera
+                            <input class="input-fieldset-footer" type="email" name="email" placeholder="E-mail"/>
+
+                        </label>
+                        <button class="btn-fieldset-footer">Zapisz się
+                            <svg width="24" height="24">
+                                <use href="./images/icons.svg#icon-icon-send-1"></use>
+                            </svg>
+                        </button>
+                    </fieldset>
+
+                </form>
+
             </div>
             
         </div>
