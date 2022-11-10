@@ -291,13 +291,10 @@ body {
     color: rgba(117, 117, 117, 0.5);
 }
 .legal {
-    margin-left: 54px;
+    margin-inline: 30px;
 }
-.legal .legal-input {
-    width: 16px;
-    height: 15px;
-    background-color: var(--brand-color-hover);
-    border-radius: 2px;
+.label-legal .input-legal {
+    overflow: hidden;
 }
 .btn {
     background-color: var(--brand-color-hover);
