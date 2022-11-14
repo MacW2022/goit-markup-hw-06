@@ -248,7 +248,7 @@ body {
 }
 .form .label-icon {
     /* align-self: center; */
-    margin-inline: 5px;
+    margin-inline: 15px;
 
 }
 .label-icon {
@@ -404,7 +404,6 @@ body {
     cursor: pointer;
     border: none;
     border-radius: 4px;
-    align-items: center;
     max-width: 200px;
     margin-top: 30px;
     padding: 10px 41px;
@@ -778,17 +777,18 @@ body {
 .box-icon3:focus {
     background-color: var(--brand-color-hover);
 }
-.fieldset-footer {
-    position: relative;
+.form-footer {
+    /* position: relative; */
     display: flex;
     width: 570px;
     height: 86px;
     margin-top: 72px;
     margin-left: 40px;
     border: none;
+    justify-content: space-between;
 }
-.label-fieldset-footer {
-    position: absolute;
+.label-form-footer {
+    /* position: absolute; */
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -800,7 +800,7 @@ body {
     width: 207px;
     height: 16px;
 }
-.input-fieldset-footer {
+.input-form-footer {
     width: 358px;
     height: 50px;
     border: 1px solid rgba(255, 255, 255, 0.3);
@@ -816,18 +816,15 @@ body {
     color: rgba(255, 255, 255, 0.6);
     padding-left: 16px;
 }
-.input-fieldset-footer:hover {
+.input-form-footer:hover {
     border-color: var(--brand-color-hover);
 }
-.btn-fieldset-footer {
-    position: absolute;
-    width: 200px;
-    height: 50px;
+.btn-form-footer {
+    display: flex;
+    margin-right: 50px;
     background-color: var(--brand-color-hover);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-    right: 0;
-    top: 35px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -835,13 +832,13 @@ body {
     line-height: 1.9;
     letter-spacing: 0.06em;
     color: var(--brand-color);
-    padding-right: 20px;
-
+    align-items: center;
+    padding-inline: 20px;
 }
-.btn-fieldset-footer svg {
-    position: absolute;
+.form-svg {
+    /* position: absolute; */
     fill: var(--brand-color);
-    top: 10px;
-    right: 20px;
-    
+    /* top: 30px;
+    right: 40px; */
+   
 }
