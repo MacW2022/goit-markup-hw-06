@@ -683,11 +683,7 @@ body {
     display: flex;
   
 }
-.footer-content {
-    /* display: flex; */
-    /* flex-direction: column; */
-   
-}
+
 .logo1 {
     font-family: 'Raleway';
     font-style: normal;
@@ -748,10 +744,7 @@ body {
 .contact-footer .info:active {
     color: var(--brand-color-hover);
 }
-.footer-content2 {
-    /* display: flex; */
-    /* flex-direction: column; */
-}
+
 .footer-content2-title5 {
     width: 113px;
     font-family: 'Roboto';
